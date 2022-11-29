@@ -17,7 +17,7 @@ public class Ejercicio10 : MonoBehaviour
         result2 = Year % 100;
         result3 = Year % 4;
 
-        if(result1 == 0 || result2 == 0 || result3== 0)
+        if(result1 == 0 && result2 == 0 || result3 == 0)
         {
             Debug.Log($"{Year} is a leap year.");
         }
